@@ -1,0 +1,35 @@
+# Maven build output
+/target/
+
+# IDE and editor settings
+/.idea/
+/.vscode/
+/.settings/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secret.properties
+**/application-secrets.properties
+*.pem
+*.key
+*.p12
+*.jks
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
